@@ -1,0 +1,58 @@
+/* تأثيرات حركية للصور والأزرار */
+.menu-item img {
+    transition: transform 0.3s ease;
+}
+
+.menu-item:hover img {
+    transform: scale(1.05);
+}
+
+.btn {
+    transition: all 0.3s ease;
+}
+
+.btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+/* زر العودة إلى أعلى */
+#back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+    background-color: #fac564;
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+    z-index: 99;
+    transition: all 0.3s ease;
+}
+
+#back-to-top:hover {
+    background-color: #000;
+    transform: translateY(-3px);
+}
+
+/* تحسين تباين الألوان */
+.navbar-dark {
+    background-color: rgba(0, 0, 0, 0.9) !important;
+}
+
+.text-primary {
+    color: #fac564 !important;
+}
+
+/* تحسين المسافات */
+.section-gap {
+    padding: 80px 0;
+}
+
+.menu-item {
+    margin-bottom: 30px;
+}

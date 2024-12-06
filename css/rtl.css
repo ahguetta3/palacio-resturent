@@ -1,0 +1,208 @@
+/* RTL Styles for Arabic */
+body.rtl {
+    font-family: 'Tajawal', sans-serif;
+    text-align: right;
+    direction: rtl;
+}
+
+/* Navigation */
+body.rtl .navbar-nav {
+    padding-right: 0;
+}
+
+body.rtl .navbar-brand {
+    margin-right: 0;
+    margin-left: 1rem;
+}
+
+body.rtl .dropdown-menu {
+    text-align: right;
+}
+
+/* Text Alignment */
+body.rtl .text-left {
+    text-align: right !important;
+}
+
+body.rtl .text-right {
+    text-align: left !important;
+}
+
+/* Margins and Floats */
+body.rtl .ml-auto {
+    margin-right: auto !important;
+    margin-left: 0 !important;
+}
+
+body.rtl .mr-auto {
+    margin-left: auto !important;
+    margin-right: 0 !important;
+}
+
+body.rtl .float-left {
+    float: right !important;
+}
+
+body.rtl .float-right {
+    float: left !important;
+}
+
+/* Buttons */
+body.rtl .btn {
+    font-family: 'Tajawal', sans-serif;
+}
+
+/* Form Controls */
+body.rtl .form-control {
+    text-align: right;
+}
+
+body.rtl .input-group > .form-control {
+    border-radius: 0 0.25rem 0.25rem 0;
+}
+
+body.rtl .input-group > .input-group-append > .btn {
+    border-radius: 0.25rem 0 0 0.25rem;
+}
+
+/* Icons and Images */
+body.rtl .icon {
+    margin-right: 0;
+    margin-left: 0.5rem;
+}
+
+/* Menu Items */
+body.rtl .menu-entry .text {
+    text-align: right;
+}
+
+body.rtl .menu-entry .price {
+    text-align: left;
+}
+
+/* Services */
+body.rtl .services .icon {
+    margin-right: 0;
+    margin-left: 1rem;
+}
+
+/* Blog */
+body.rtl .blog-entry .text {
+    text-align: right;
+}
+
+body.rtl .blog-entry .meta {
+    direction: rtl;
+}
+
+/* Footer */
+body.rtl .ftco-footer {
+    text-align: right;
+}
+
+body.rtl .ftco-footer ul {
+    padding-right: 0;
+}
+
+/* Typography Improvements */
+body.rtl h1, 
+body.rtl h2, 
+body.rtl h3, 
+body.rtl h4, 
+body.rtl h5, 
+body.rtl h6 {
+    font-family: 'Tajawal', sans-serif;
+    font-weight: 700;
+}
+
+body.rtl p {
+    font-family: 'Tajawal', sans-serif;
+    font-weight: 400;
+    line-height: 1.8;
+}
+
+/* Custom Classes */
+body.rtl .subheading {
+    font-family: 'Tajawal', sans-serif;
+}
+
+body.rtl .heading-section {
+    text-align: right;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    body.rtl .navbar-collapse {
+        text-align: right;
+    }
+    
+    body.rtl .navbar-toggler {
+        margin-left: 0;
+        margin-right: auto;
+    }
+}
+
+/* Animations */
+body.rtl .ftco-animate {
+    opacity: 0;
+    visibility: hidden;
+}
+
+/* Price Display */
+body.rtl .price {
+    direction: ltr;
+    display: inline-block;
+}
+
+body.rtl .price span {
+    direction: rtl;
+    display: inline-block;
+}
+
+/* Contact Form */
+body.rtl .contact-form {
+    text-align: right;
+}
+
+body.rtl .contact-form .form-control {
+    text-align: right;
+    padding-right: 1rem;
+}
+
+/* Social Icons */
+body.rtl .ftco-footer-social {
+    padding-right: 0;
+    direction: ltr;
+}
+
+/* Additional Spacing Fixes */
+body.rtl .pl-4 {
+    padding-left: 0 !important;
+    padding-right: 1.5rem !important;
+}
+
+body.rtl .pr-4 {
+    padding-right: 0 !important;
+    padding-left: 1.5rem !important;
+}
+
+/* Cart Button */
+body.rtl .cart-btn {
+    margin-right: 0.5rem;
+    margin-left: 0;
+}
+
+/* Search Box */
+body.rtl .search-box {
+    text-align: right;
+}
+
+body.rtl .search-box input {
+    padding-right: 1rem;
+    padding-left: 3rem;
+}
+
+body.rtl .search-box .icon {
+    right: auto;
+    left: 1rem;
+}
